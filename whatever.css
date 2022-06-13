@@ -1,6 +1,7 @@
 html {
 	max-width: 100%;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -89,7 +90,7 @@ a:link {
 
 .coverphoto {
 	padding: 0;
-	background-image: url("IMG/Udklip.png");
+	background-image: url("IMG/Udklip.PNG");
   	height: 100%;
   	background-attachment: fixed;
   	background-position: center;
