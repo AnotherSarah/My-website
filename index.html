@@ -12,24 +12,48 @@
 
 <body>
 
-	<div class="coverphoto" alt="Clouds in Torino" width=100%>
+	<nav class="navbar fixed-topp">
+		<ul class="navbar-nav">
+			<li class="navbar-item">
+				<a href="#home" class="navbar-link">
+					HOME
+				</a>
+			</li>
+			<li class="navbar-item">
+				<a href="#pictures" class="navbar-link">
+					PICTURES
+				</a>
+			</li>
+			<li class="navbar-item">
+				<a href="#music" class="navbar-link">
+					MUSIC
+				</a>
+			</li>
+			<li class="navbar-item">
+				<a href="#podcasts" class="navbar-link">
+					PODCASTS
+				</a>
+			</li>
+			<li class="navbar-item" style="float:right">
+				<a href="fr.html" class="navbar-link">
+				FR
+				</a>
+			</li>
+			<li class="navbar-item" style="float:right">
+				<a href="index.html" class="navbar-link">
+					ENG
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div id="home" class="coverphoto" alt="Clouds in Torino" width=100%>
 		<div>
 			<p class="logo-title"> Chez Sarah </p>
 		</div>
 	</div>
 
 	<div class="wrapper">
-
-		<nav class="navbar fixed-topp">
-			<ul class="navbar-nav">
-				<li class="navbar-item">
-					<a href="#home" class="navbar-link">
-						HOME
-					</a>
-				</li>
-			</ul>
-		</nav>
-	
 
 		<div class="about">
 
@@ -50,7 +74,7 @@
 
 		</div>
 
-		<div class="gallery category-box">
+		<div class="gallery category-box" id="pictures">
 
 			<div class="category">
 				<hr>
@@ -88,7 +112,7 @@
 
 		</div>
 
-		<div class="music category-box">
+		<div class="music category-box" id="music">
 
 			<div class="category">
 				<hr>
@@ -137,7 +161,7 @@
 
 		</div>
 
-		<div class="podcasts category-box">
+		<div class="podcasts category-box" id="podcasts">
 
 			<div>
 				<div class="category">
