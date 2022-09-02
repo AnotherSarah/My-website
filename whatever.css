@@ -159,6 +159,7 @@ a:link {
 }
 
 .category-description {
+	display: grid;
 	margin: 65px 300px;
 	text-align: center;
 }
