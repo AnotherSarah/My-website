@@ -159,8 +159,8 @@ a:link {
 }
 
 .category-description {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin: 65px 300px;
+	text-align: center;
 }
 
 .category-box {
